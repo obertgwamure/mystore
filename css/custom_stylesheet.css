@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+
+}
+    .navbar-brand:hover {
+        opacity: 0.5;
+        transition: 0.7s;
+    }
+.nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: black;
+}
+    .nav-link:hover {
+        opacity: 0.5;
+        transition: 0.7s;
+    }
+.search {
+    outline: none;
+    border: 2px solid rgb(255 216 0);
+    border-radius: 60px;
+    margin-right: -35px;
+}
+.btn0 {
+    border: none;
+    background: black;
+    color: rgb(255 216 0);
+    border-radius: 60px;
+    outline: none;
+    width: 40%;
+    font-weight: 700;
+}
+    .btn0:hover {
+        background: rgb(52 8 247);
+        color: white;
+        transition: 0.7s;
+    }
+.main {
+    background: url(../images/background_5.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    background: black;
+    color: rgb(255 216 0);
+    font-weight: 700;
+    border-radius: 30px;
+    border: none;
+ 
+}
+    .btn1:hover {
+        background: rgb(52 8 247);
+        color: white;
+        transition: 0.7s;
+    }
+.new h5{
+    color: red;
+    font-weight: 700;
+}
+
+.new img {
+    border-radius: 60px;
+}
+.new img:hover {
+    box-shadow: -2px -1px 25px -4px rgb(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgb(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgb(0,0,0,0.75);
+}
+h1 {
+    font-weight: 700;
+}
+
+.card:hover {
+    box-shadow: -2px -1px 25px -4px rgb(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgb(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgb(0,0,0,0.75);
+}
+.contact-us {
+    background: linear-gradient(rgb(0, 0, 0, 0.2),rgb(0, 0, 0, 0.8)),url(../images/clothing_rack.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
